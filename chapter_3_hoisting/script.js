@@ -1,5 +1,4 @@
 
-
 var x = 7;
 
 function getName(){
