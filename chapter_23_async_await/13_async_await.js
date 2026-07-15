@@ -17,10 +17,7 @@ fetch(API)
 
     console.log("\nAccessing Properties:");
     console.log("Name:", data.name);
-    console.log("Username:", data.username);
-    console.log("Email:", data.email);
-    console.log("Phone:", data.phone);
-    console.log("Website:", data.website);
+    console.log("ID:", data.id);
   })
   .catch(function (error) {
     console.log("Error:", error);

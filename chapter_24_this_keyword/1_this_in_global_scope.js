@@ -1,0 +1,1 @@
+console.log(this);  // in global scope,this points to global object
