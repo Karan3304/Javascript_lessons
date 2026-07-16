@@ -1,11 +1,11 @@
 const obj2 = {
-    a:10,
-    x : function(){
-        const y = ()=>{
-            console.log(this);
-        }
-        y();
-    }
+  a: 10,
+  x: function () {
+    const y = () => {
+      console.log(this);
+    };
+    y();
+  },
 };
 
 obj2.x();

@@ -1,0 +1,1 @@
+In DOM event handlers, this refers to the element the listener is attached to — but only for regular functions; arrow functions don't bind their own this and inherit it from the surrounding scope instead.

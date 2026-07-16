@@ -1,9 +1,9 @@
-"use strict"
+"use strict";
 
 // console.log(this);
 
-function x(){
-    console.log(this);
+function x() {
+  console.log(this);
 }
 
 x();
