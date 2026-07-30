@@ -1,31 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste JavaScript</title>
 
     <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
 
-        h1 {
-            font-size: 3rem;
-        }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+
+      .increment_btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin: 5px 0;
+      }
+
+      #ClickMe {
+        margin-top: 20px;
+        padding: 8px 20px;
+        cursor: pointer;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1 id="Heading">🙏 Namaste Karan Bhai 🙏</h1>
-    <button onclick="alert(this.tagName)" id="ClickMe">Click Me</button>
-    <script src="/chapter_26_currying/9.js"></script>
 
-</body>
+    <button class="increment_btn">Increment</button>
+    <p>Button Pressed <span class="increment_pressed">0</span> Times</p>
+    <p>Triggered <span class="increment_count">0</span> Times</p>
+
+    <button onclick="alert(this.tagName)" id="ClickMe">Click Me</button>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/chapter_27_debounce_throttle/4_throttle_polyfill.js"></script>
+  </body>
 </html>
