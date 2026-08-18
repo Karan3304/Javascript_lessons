@@ -8,3 +8,5 @@ let user = {
     },
   },
 };
+
+user.childObj.getDetails();

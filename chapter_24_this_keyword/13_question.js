@@ -7,7 +7,8 @@ function makeUser1() {
 
 let user1 = makeUser1();
 
-alert(user1.ref.name); // What's the result?
+console.log(user1.ref.name); // What's the result?
+
 
 // Answer: an error.
 
@@ -26,4 +27,4 @@ function makeUser2() {
 
 let user2 = makeUser2();
 
-alert(user2.ref().name); // Piyush Agarwal
+console.log(user2.ref().name); // karan

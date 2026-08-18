@@ -1,7 +1,6 @@
-const p = new Promise((resolve,reject) => {
-    resolve("promsie P is resolved !!!");
-})
-
+const p = new Promise((resolve, reject) => {
+  resolve("promsie P is resolved !!!");
+});
 
 // //    this is pormise handling using .then method
 // function getData(){
@@ -10,11 +9,11 @@ const p = new Promise((resolve,reject) => {
 
 // getData();
 
-// //     promsie handling using the 
+// //     promsie handling using the
 
-async function handlePromise(){
-    const val = await p;
-    console.log(val);
+async function handlePromise() {
+  const val = await p;
+  console.log(val);
 }
 
 handlePromise();

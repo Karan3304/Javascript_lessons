@@ -12,6 +12,8 @@ var getName = () => {                     // it will be treated like a variable,
     console.log("Namaste karan");
 }
 
+// getName()
 
 
-// unusual behaviour,"Namaste karan" ans give "x = undefined"
+
+// unusual behaviour,"Namaste karan" and give "x = undefined"

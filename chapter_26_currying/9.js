@@ -1,3 +1,5 @@
+// convert f(a,b,c) into f(a,b,c)
+
 function curry(func) {
   return function curriedFunc(...args) {
     if (args.length >= func.length) {

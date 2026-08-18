@@ -2,13 +2,13 @@
 
 //                             Currying
 
-function sum(a){
-    return function(b){
-        return function(c){
-            return a+b+c;
-        };
+function sum(a) {
+  return function (b) {
+    return function (c) {
+      return a + b + c;
     };
-};
+  };
+}
 
 console.log(sum(12)(12)(8));
 // OR
@@ -19,14 +19,14 @@ console.log(result);
 
 //                           Partial application
 
-function sumx(a){
-    return function(b,c){
-        return a+b+c;
-    }
+function sumx(a) {
+  return function (b, c) {
+    return a + b + c;
+  };
 }
 
-console.log(sumx(20)(1,3));
+console.log(sumx(20)(1, 3));
 // or
 const x = sumx(20);
-console.log(x(1,3));
-console.log(x(4,5));
+console.log(x(1, 3));
+console.log(x(4, 5));

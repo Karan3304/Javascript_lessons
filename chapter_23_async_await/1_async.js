@@ -3,5 +3,5 @@ async function getData(){
 }
 
 const Data = getData();
-// console.log(Data);
+console.log(Data);
 Data.then(res => console.log(res));

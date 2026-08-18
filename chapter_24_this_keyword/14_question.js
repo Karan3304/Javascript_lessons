@@ -17,5 +17,9 @@ const user2 = {
 };
 
 setTimeout(function (params) {
-  user.logMessage();
-}, 1000); // undefined
+  user2.logMessage();
+}, 1000); 
+// OR
+setTimeout(() => {
+  user2.logMessage();
+}, 1000);

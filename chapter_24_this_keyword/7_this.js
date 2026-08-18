@@ -1,3 +1,4 @@
+// "use strict"
 const obj = {
   a: 10,
   x: () => {

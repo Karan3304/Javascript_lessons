@@ -17,4 +17,4 @@ Promise.any([p1, p2, p3])
     console.log(err.errors);
   });
 
-//   it returns the value of the first settled promsie,irrespective of whether it fails or success
+//   if returns us the result of the first successfull promise

@@ -1,9 +1,9 @@
 var obj = {
-    name:"KARAN",
+  name: "KARAN",
 };
 
-function getName(age,field){
-    return "hello " + this.name + " is " + age + " and a "+field;
+function getName(age, field) {
+  return "hello " + this.name + " is " + age + " and a " + field;
 }
 
-console.log(getName.call(obj,25,"software engineer"));
+console.log(getName.call(obj, 25, "software engineer"));

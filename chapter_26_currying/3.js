@@ -24,9 +24,7 @@ console.log(evaluate("subtract")(4)(2));
 
 // OR
 
-const mul = evaluate("multiply")  // now mul will always perform multiply,this is on of the usecase of the currying
+const mul = evaluate("multiply"); // now mul will always perform multiply,this is on of the usecase of the currying
 
 console.log(mul(3)(4));
 console.log(mul(3)(6));
-
-
