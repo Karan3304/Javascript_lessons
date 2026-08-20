@@ -6,6 +6,10 @@ let car2 = {
   color: "green",
   company: "Lambo",
 };
+let car3 = {
+  color: "gold",
+  company: "RR",
+};
 
 function purchaseCar(currency, price) {
   console.log(
@@ -29,3 +33,5 @@ const newFunc = purchaseCar.myBind(car);
 console.log(newFunc("$", 500000));
 const newFunc2 = newFunc.myBind(car2);
 console.log(newFunc2("$", 700000));
+const newFunc3 = newFunc2.myBind(car3);
+console.log(newFunc3("$",800000))
