@@ -15,17 +15,16 @@
 // run only once - we will use closures for this
 let view;
 function func() {
-    let called = 0;
-    return function(){
-        if(called > 0){
-            console.log(new Error("Already called once !!!"));
-        }
-        else{
-            view = "karan";
-            console.log("hello "+ view);
-            called++;
-        }
-    };
+  let called = 0;
+  return function () {
+    if (called > 0) {
+      console.log(new Error("Already called once !!!"));
+    } else {
+      view = "karan";
+      console.log("hello " + view);
+      called++;
+    }
+  };
 }
 
 let yo = func();

@@ -34,4 +34,4 @@ console.log(newFunc("$", 500000));
 const newFunc2 = newFunc.myBind(car2);
 console.log(newFunc2("$", 700000));
 const newFunc3 = newFunc2.myBind(car3);
-console.log(newFunc3("$",800000))
+console.log(newFunc3("$", 800000));
